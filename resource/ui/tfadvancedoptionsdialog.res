@@ -46,13 +46,13 @@
 	
 	"CancelButton"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"CExImageButton"
 		"fieldName"									"CancelButton"
-		"xpos"										"rs1"
-		"ypos"										"0"
+		"xpos"										"rs1-2"
+		"ypos"										"2"
 		"zpos"										"10"
-		"wide"										"40"
-		"tall"										"40"
+		"wide"										"20"
+		"tall"										"20"
 		"autoResize"								"0"
 		"pinCorner"									"3"
 		"visible"									"1"
@@ -73,7 +73,7 @@
 		
 		"image_drawcolor"							"245 245 245 60"
 		"image_armedcolor"							"245 245 245 200"
-			
+		
 		"SubImage"
 		{
 			"ControlName"							"ImagePanel"

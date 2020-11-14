@@ -1732,7 +1732,7 @@
 		
 		"obj_status_alert_background_tall"
 		{
-			"file"		"HUD/eng_status_area_sentry_alrt"
+			"file"		"vgui/logos/engistuff/eng_status_area_sentry_alrt"
 			"x"			"0"
 			"y"			"0"
 			"width"		"80"
@@ -1750,11 +1750,11 @@
 		
 		"obj_status_icon_wrench"
 		{
-			"file"		"HUD/eng_status_alert_ico_wrench"
+			"file"		"vgui/logos/engistuff/wrench"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"128"
+			"height"	"128"
 		}
 			
 		"obj_status_icon_sapper"

@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"product8"
+		"font"				"product9"
 		"xpos"				"55"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -152,14 +152,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"38"
+		"xpos"			"33"
 		"ypos"			"1"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
+		"image"			"replay/thumbnails/softicons/ammo"
 		"scaleImage"	"1"
 	}
 

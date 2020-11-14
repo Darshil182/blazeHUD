@@ -327,15 +327,7 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"border"		"noborder"
+				"xpos"			"9999"
 			}
 
 			"BGPanel"
@@ -359,18 +351,18 @@
 			{
 				"ControlName"	"CTFLogoPanel"
 				"fieldname"		"CTFLogoPanel"
-				"xpos"			"0"
-				"ypos"			"1"
+				"xpos"			"-10"
+				"ypos"			"-14"
 				"zpos"			"5"
-				"wide"			"0"
-				"tall"			"0"
+				"wide"			"o1"
+				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"radius"		"10"
+				"radius"		"8"
 				"velocity"		"100"
 
-				"fgcolor_override"	"TFOrange"
+				"fgcolor_override"	"TanLight120"
 			}
 
 			"QueueText"

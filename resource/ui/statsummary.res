@@ -22,7 +22,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"MainBGLight"
+		"fillcolor"									"MainBGDark"
 	}
 	
 	"Loading"

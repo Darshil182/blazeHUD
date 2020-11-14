@@ -236,10 +236,10 @@
 			
 			"paintbackground"				"0"
 			
-			"fgcolor"						"TanLight120"
-			"defaultFgColor_override"		"TanLight120"
-			"armedFgColor_override"			"White"
-			"selectedFgColor_override"		"White"
+			"fgcolor"						"TanLight60"
+			"defaultFgColor_override"		"TanLight60"
+			"armedFgColor_override"			"255 255 255 255"
+			"selectedFgColor_override"		"255 255 255 255"
 			
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"

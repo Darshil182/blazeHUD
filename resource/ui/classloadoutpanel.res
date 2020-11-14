@@ -28,10 +28,10 @@
 		"infocus_bgcolor_override" "CollyHudDarkGray"
 		"outoffocus_bgcolor_override" "CollyHudDarkGray"
 
-		"item_xpos_offcenter_a"	"-268"
-		"item_xpos_offcenter_b"	"218"
+		"item_xpos_offcenter_a"	"-300"
+		"item_xpos_offcenter_b"	"192"
 		"item_ypos"		"88"
-		"item_ydelta"	"54"
+		"item_ydelta"	"74"
 		"item_xdelta"	"0" //58
 		"item_mod_wide"	"120"
 
@@ -51,8 +51,8 @@
 			"xpos"			"c-70"
 			"ypos"			"280"
 			"zpos"			"1"
-			"wide"			"50"
-			"tall"			"50"
+			"wide"			"110"
+			"tall"			"70"
 			"visible"		"0"
 			"noitem_textcolor"		"245 245 245 60"
 			"PaintBackgroundType"	"0"
@@ -61,10 +61,10 @@
 			"bgcolor_override"	"0 0 0 0"
 
 			"model_xpos"	"0"
-			"model_ypos"	"8"
-			"model_wide"	"50"
-			"model_tall"	"35"
-			"text_ypos"		"60"
+			"model_ypos"	"3"
+			"model_wide"	""
+			"model_tall"	"50"
+			"text_ypos"		"54"
 			"text_center"	"1"
 			"name_only"		"1"
 
@@ -103,88 +103,172 @@
 				"Alpha"					"255"
 				"paintborder"			"9"
 			}
-
-
 		}
 
 	 	"itemoptionpanels_kv"
     	{
-        	"ControlName"        "CExButton"
-        	"xpos"                        "2"
-        	"ypos"                        "2"
-        	"zpos"                        "2"
-        	"wide"                        "12"
-        	"tall"                        "12"
-        	"autoResize"        "0"
-        	"visible"                "0"
-        	"enabled"                "1"
-        	"tabPosition"        "0"
-        	"labelText"                "+"
-        	"font"                        "product8"
-        	"bgcolor_override"                        "0 0 0 80"
-        	"defaultbgcolor_override"                        "0 0 0 80"
-        	"armedbgcolor_override"                        "0 0 0 80"
-        	"textAlignment"        "center"
-        	"dulltext"                "0"
-        	"brighttext"        "0"
-        	"default"                "1"
-        	"sound_depressed"        "UI/buttonclick.wav"
-        	"sound_released"        "UI/buttonclickrelease.wav"
+        	"ControlName"				"CExButton"
+        	"xpos"						"2"
+        	"ypos"						"2"
+        	"zpos"						"2"
+        	"wide"						"12"
+        	"tall"						"12"
+        	"autoResize"				"0"
+        	"visible"					"0"
+        	"enabled"					"1"
+        	"tabPosition"				"0"
+        	"labelText"					"+"
+        	"font"						"product8"
+        	"bgcolor_override"			"0 0 0 80"
+        	"defaultbgcolor_override"	"0 0 0 80"
+        	"armedbgcolor_override"		"0 0 0 80"
+        	"textAlignment"				"center"
+        	"dulltext"					"0"
+        	"brighttext"				"0"
+        	"default"					"1"
+        	"sound_depressed"			"UI/buttonclick.wav"
+        	"sound_released"			"UI/buttonclickrelease.wav"
 
     	}
     }
-
-	"CaratLabel"
+	
+	"ItemOptionsPanel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"9999"		//c-305
-		"ypos"			"9999"		//15
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor_override" "200 80 60 255"
+		"ControlName"					"CLoadoutParticleSlider"
+		"fieldname"						"ItemOptionsPanel"
+		"xpos"							"0"
+		"ypos"							"0"
+		"zpos"							"100"
+		"wide"							"120"
+		"tall"							"75"
+		"autoResize"					"1"
+		"visible"						"0"
+		"bgcolor_override"				"MainBGDark"
+		"PaintBackgroundType"			"0"
+	}
+	
+	"CharacterLoadoutButton"
+	{
+		"ControlName"					"CExButton"
+		"fieldName"						"CharacterLoadoutButton"
+		"xpos"							"c-25"
+		"ypos"							"64"
+		"zpos"							"100"
+		"wide"							"22"
+		"tall"							"22"
+		"autoResize"					"0"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"dulltext"						"0"
+		"brighttext"					"0"
+		"default"						"0"
+		"Command"						"characterloadout"
+		"labeltext"						"L"
+		"font"							"Symbols 18"
+		"textAlignment"					"center"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+		
+		"paintbackground"				"1"
 	}
 
-	"CurrentlyEquippedLabel"
+	"TauntLoadoutButton"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#CurrentlyEquipped"
-		"textAlignment"	"south-west"
-		"xpos"			"9999"		//c-39
-		"ypos"			"9999"		//22
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
+		"ControlName"					"CExButton"
+		"fieldName"						"TauntLoadoutButton"
+		"xpos"							"3"
+		"ypos"							"0"
+		"zpos"							"100"
+		"wide"							"22"
+		"tall"							"22"
+		"autoResize"					"0"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"dulltext"						"0"
+		"brighttext"					"0"
+		"default"						"0"
+		"Command"						"tauntloadout"
+		"labeltext"						"^"
+		"font"							"Symbols 18"
+		"textAlignment"					"center"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
 
-	"TopLine"
+		"paintbackground"				"1"
+		
+		"pin_to_sibling" 				"CharacterLoadoutButton"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+	}
+	
+	"BlueButton"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLine"
-		"xpos"			"c-310"
-		"ypos"			"44"
-		"zpos"			"2"
-		"wide"			"613"
-		"tall"			"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"225 225 225 0"
-		"tileImage"		"1"
-		"tileVertically" "0"
+		"ControlName"					"CExImageButton"
+		"fieldName"						"BlueButton"
+		"xpos"							"0"
+		"ypos"							"3"
+		"zpos"							"20"
+		"wide"							"15"
+		"tall"							"15"
+		"autoResize"					"1"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						"v"
+		"textAlignment"					"center"
+		"font"							"Symbols 12"
+		"scaleImage"					"1"
+		"command"						"sv_cheats 1; r_skin 1"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+		
+		"paintbackground"				"0"
+		
+		"defaultFgColor_override" 		"SoftBlue"
+		"armedFgColor_override" 		"SoftBlue"
+		"depressedFgColor_override" 	"SoftBlue"
+		
+		"pin_to_sibling" 				"TauntLoadoutButton"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+	} 
+
+	"RedButton"
+	{
+		"ControlName"					"CExImageButton"
+		"fieldName"						"RedButton"
+		"xpos"							"0"
+		"ypos"							"2"
+		"zpos"							"20"
+		"wide"							"15"
+		"tall"							"15"
+		"autoResize"					"1"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						"v"
+		"textAlignment"					"center"
+		"font"							"Symbols 12"
+		"scaleImage"					"1"
+		"command"						"sv_cheats 1;r_skin 0"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+		
+		"paintbackground"				"0"
+		
+		"defaultFgColor_override" 		"SoftRed"
+		"armedFgColor_override" 		"SoftRed"
+		"depressedFgColor_override" 	"SoftRed"
+		
+		"pin_to_sibling" 				"TauntLoadoutButton"
+		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_BOTTOMRIGHT"
 	}
 
 	"classmodelpanel"
@@ -277,8 +361,6 @@
 		}
 	}
 	
-	
-	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -293,8 +375,6 @@
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-		
-		
 		
 		"text_xpos"			"0"
 		"text_xpos_collection" "0"
@@ -324,56 +404,63 @@
 		}
 	}
 	
-	"PassiveAttribsLabel"
+	"TESTLINE"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PassiveAttribsLabel"
-		"font"			"product8"
-		"xpos"			"c-250"
-		"ypos"			"94"
-		"zpos"			"20"
-		"wide"			"0"
-		"tall"			"240"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"padding_height"	"20"
-		"labelText"		""
-		"textAlignment"	"north-west"
-		"fgcolor"		"245 245 245 110"
-	}
-	
-	"ClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"font"			"product16"
-		"xpos"			"c-250"
-		"ypos"			"80"
-		"zpos"			"20"
-		"wide"			"0"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
+		"ControlName"		"EditablePanel"
+		"FieldName"			"TESTLINE"
+		"xpos"				"cs-0.5"
+		"ypos"				"150"
+		"wide"				"380"
+		"tall"				"2"
+		"visible"			"0"
+		"enabled"			"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"White"
 	}
 	
 	"loadout_preset_panel"
 	{
-		"ControlName"	"CLoadoutPresetPanel"
-		"FieldName"		"loadout_preset_panel"
-		"zpos"			"20"
-		"wide"			"150"
-		"tall"			"22"
-		"text"	"0"
-		"pinCorner"		"4"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"		"CLoadoutPresetPanel"
+		"FieldName"			"loadout_preset_panel"
+		"zpos"				"20"
+		"wide"				"150"
+		"tall"				"22"
+		"text"				"0"
+		"pinCorner"			"4"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
 		"paintbackground"	"0"
+	}
+	
+	"CaratLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CaratLabel"
+		"xpos"			"9999"
+	}
+	"CurrentlyEquippedLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrentlyEquippedLabel"
+		"xpos"			"9999"
+	}
+	"TopLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopLine"
+		"xpos"			"9999"
+	}
+	"PassiveAttribsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PassiveAttribsLabel"
+		"xpos"			"9999"
+	}
+	"ClassLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassLabel"
+		"xpos"			"9999"
 	}
 }

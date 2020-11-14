@@ -473,7 +473,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
+		"FgColor"		"236 236 236 255"
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -3827,39 +3827,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
+				"name"		"Product Sans"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -7100,7 +7072,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"0 0 0 165"
+			"color"					"0 0 0 240"
 
 			"image"					"replay/thumbnails/white"
 		}

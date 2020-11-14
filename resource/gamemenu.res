@@ -4,23 +4,90 @@
 	{
 		"label"			""
 		"command"		"engine connect"							//ADD THE IP OF THE SERVER HERE
-		"tooltip"		"Favorite Server"							//CHANGE THIS WITH THE NAME OF THE SERVER
+		"tooltip"		"Favorite Server 1"							//CHANGE THIS WITH THE NAME OF THE SERVER
 		"subimage" 		"replay/thumbnails/softicons/favserver"
 	}
 	"FavoriteServer2"
 	{
 		"label"			""
 		"command"		"engine connect"
-		"tooltip"		"Favorite Server"
+		"tooltip"		"Favorite Server 2"
 		"subimage" 		"replay/thumbnails/softicons/favserver"
 	}
 	"FavoriteServer3"
 	{
 		"label"			""
 		"command"		"engine connect"
-		"tooltip"		"Favorite Server"
+		"tooltip"		"Favorite Server 3"
 		"subimage" 		"replay/thumbnails/softicons/favserver"
 	}
+	
+	
+	
+	"ServerBrowserButton"
+	{
+		"label"			""
+		"command"		"openserverbrowser"
+		"tooltip"		"Browse Servers"
+		"subimage" 		"replay/thumbnails/softicons/search"
+	}
+	"News"
+	{
+		"label"			""
+		"command"		"motd_show"
+		"tooltip"		"News"
+		"subimage" 		"replay/thumbnails/softicons/news"
+	}
+	"Contracker"
+	{
+		"label"			""
+		"command"		"questlog"
+		"tooltip"		"Contracker"
+		"subimage" 		"replay/thumbnails/softicons/contracker"
+	}
+	"MinMode"
+	{
+		"label"			""
+		"command"		"engine toggle cl_hud_minmode"
+		"tooltip"		"HUD MinMode"
+		"subimage" 		"replay/thumbnails/softicons/minmodeon"
+	}
+	"AdvancedSettings"
+	{
+		"label"			""
+		"command"		"opentf2options"
+		"tooltip"		"Advanced Settings"
+		"subimage" 		"replay/thumbnails/softicons/advanced"
+	}
+	"CharacterSetupButton"
+	{
+		"label"			"ITEMS"
+		"command"		"engine open_charinfo"
+		"tooltip"		""
+		"subimage" 		"replay/thumbnails/softicons/briefcase"
+	}
+	"GeneralStoreButton"
+	{
+		"label"			"SHOP"
+		"command"		"engine open_store"
+		"tooltip"		""
+		"subimage" 		"replay/thumbnails/softicons/shop"
+	}
+	"QuitButton"
+	{
+		"label"			"QUIT"
+		"command"		"quit"
+		"tooltip"		""
+		"subimage" 		"replay/thumbnails/softicons/quit"
+	}
+	"SettingsButton"
+	{
+		"label"			"SETTINGS"
+		"command"		"OpenOptionsDialog"
+		"tooltip"		""
+		"subimage" 		"replay/thumbnails/softicons/gear"
+	}
+	
 	
 	"CallVoteButton"
 	{
