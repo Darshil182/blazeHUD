@@ -7,7 +7,7 @@
 		"font"			"HP14"
 		"fgcolor"		"216 216 216 255"
 		"xpos"			"cs-0.5"
-		"ypos"			"c5"
+		"ypos"			"c0"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"40"
@@ -109,7 +109,7 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"236 236 236 255"
 		"bgcolor_override"	"0 0 0 160"
-		
+
 		"pin_to_sibling" 		"IndividualChargesLabel"
 	}
 
@@ -132,7 +132,7 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"236 236 236 255"
 		"bgcolor_override"	"0 0 0 160"
-		
+
 		"pin_to_sibling" 		"ChargeMeter1"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -157,7 +157,7 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"236 236 236 255"
 		"bgcolor_override"	"0 0 0 160"
-		
+
 		"pin_to_sibling" 		"ChargeMeter2"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -182,7 +182,7 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"236 236 236 255"
 		"bgcolor_override"	"0 0 0 160"
-		
+
 		"pin_to_sibling" 		"ChargeMeter3"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -206,7 +206,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -219,7 +219,7 @@
 		"enabled"									"1"
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling"							"ResistIconAnchor"
 	}
 }
