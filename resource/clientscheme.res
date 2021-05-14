@@ -545,6 +545,30 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"Damage18"
+		{
+			"1"
+			{
+				"name"		"Product Sans Numbers"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+
+		"Damage18blur"
+		{
+			"1"
+			{
+				"name"		"Product Sans Numbers"
+				"tall"		"18"
+				"antialias" "1"
+				"blur" 		"1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		"blocks"
 		{
 			"1"
@@ -3608,6 +3632,82 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// HUD CROSSHAIRS (whayay)
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+			"CrosshairAASmall"
+			{
+				"1"
+				{
+					"name"       	"Crosshair"
+					"tall"       	"16"
+					"additive"   	"0"
+					"antialias"     "1"
+					"weight"    	"0"
+					"outline"   	"0"
+				}
+			}
+			"CrosshairOLSmall"
+			{
+				"1"
+				{
+					"name"        	"Crosshair"
+					"tall"        	"14"
+					"additive"    	"0"
+					"antialias"     "1"
+					"weight"    	"0"
+					"outline"    	"1"
+				}
+			}
+			"CrosshairAA"
+			{
+				"1"
+				{
+					"name"       	"Crosshair"
+					"tall"        	"20"
+					"additive"    	"0"
+					"antialias"     "1"
+					"weight"    	"0"
+					"outline"    	"0"
+				}
+			}
+			"CrosshairOL"
+			{
+				"1"
+				{
+					"name"        	"Crosshair"
+					"tall"        	"20"
+					"additive"    	"0"
+					"antialias"     "1"
+					"weight"    	"0"
+					"outline"    	"1"
+				}
+			}
+			"CrosshairAABig"
+			{
+				"1"
+				{
+					"name"        	"Crosshair"
+					"tall"        	"24"
+					"additive"    	"0"
+					"antialias"     "1"
+					"weight"    	"0"
+					"outline"    	"0"
+				}
+			}
+			"CrosshairOLBig"
+			{
+				"1"
+				{
+					"name"        	"Crosshair"
+					"tall"        	"24"
+					"additive"    	"0"
+					"antialias"     "1"
+					"weight"    	"0"
+					"outline"    	"1"
+				}
+			}
 
 		"Default"
 		{

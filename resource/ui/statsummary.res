@@ -92,13 +92,14 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"StatData"
-		"xpos"										"0"
+		"xpos"										"cs-0.5"
 		"ypos"										"20"
 		"zpos"										"12"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		
 		"PerformanceBackground"
 		{

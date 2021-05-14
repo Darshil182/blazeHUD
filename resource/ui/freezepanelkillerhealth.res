@@ -15,10 +15,10 @@
 		"alpha"			"0"
 		"proportionaltoparent"	"1"
 	}
-	"HurtBG"
+	"HurtBG_Killer"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HurtBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HurtBG_Killer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"
@@ -27,13 +27,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"0"
-		"fillcolor"		"softred"
+		"paintbackground"	"1"
+		"bgcolor_override"	"softred"
 		"proportionaltoparent"	"1"
 	}
-	"BuffBG"
+	"BuffBG_Killer"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuffBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BuffBG_Killer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"
@@ -42,7 +43,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"0"
-		"fillcolor"		"softgreen" //use softgreen for green buffs
+		"paintbackground"	"1"
+		"bgcolor_override"	"softgreen"
 		"proportionaltoparent"	"1"
 	}
 	"PlayerStatusHealthValue"

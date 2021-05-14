@@ -3,7 +3,7 @@
 	YahudCrosshairs
 	{
 		"visible" 		"0"
-		"enabled" 		"1"
+		"enabled" 		"0"
 
 		"labelText"		"f"						//Check crosshairs.png
 
@@ -19,6 +19,32 @@
 
 		"textAlignment"	"center"
 		"fgcolor" 		"255 255 255 255"
+	}
+
+	"Whayay_crosshair"
+	{
+        "controlname"		"CExLabel"
+		"fieldname"			"whayay_crosshair"
+        "textAlignment"		"center"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
+
+
+		"enabled"			"0"									// Set both to "1"
+		"visible"			"0"			  						// to enable
+
+		"labeltext"			"t"           						// Change this to use a different crosshair
+
+        "font"				"CrosshairOLsmall"	    			// Use "CrosshairOL" for a crosshair with an outline
+																// or "CrosshairAA" for a smooth crosshair w/o an outline
+
+																// You can add "Small" or "Big" at the end to change the size
+																// e.g. "CrosshairOLSmall"
+
+        "fgcolor"			"0 255 110 255"      					// Color is changed via the clientscheme
 	}
 
 	HudPlayerStatus
@@ -210,8 +236,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-162"
-		"ypos"					"r102"
+		"xpos"					"c-155"
+		"ypos"					"r82"
 		"wide"					"96"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -306,10 +332,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
+		"xpos"		"-11"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]
 		"wide"		"640"
 		"tall"		"480"
 
@@ -767,7 +791,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-240"
-		"ypos"					"c60"
+		"ypos"					"c105"
 		"wide"					"480"
 		"tall"					"100"
 		"HintSize"				"1"

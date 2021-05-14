@@ -9,7 +9,7 @@
 		"PositiveColor"			"43 195 123 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.3"
-		"delta_item_font"		"productbold18"
+		"delta_item_font"		"Damage18"
 		"text_center"		"1"
 	}
 }

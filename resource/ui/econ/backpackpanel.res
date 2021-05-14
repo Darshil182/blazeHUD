@@ -416,29 +416,23 @@
 	
 	"mouseoveritempanel"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
-		"zpos"			"10000"
-		"wide"			"178"
-		"tall"			"1000"
+		"zpos"			"102"
+		"wide"			"300"
+		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 165"
-		"noitem_textcolor"		"110 110 110 255"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"	"LightShadow"
 		
-		
-		
-		"text_xpos"			"0"
-		"text_xpos_collection" "0"
-		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"16"
+		"padding_height"	"15"
 		
 		"attriblabel"
 		{
@@ -446,7 +440,7 @@
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
-			"wide"			"f0"
+			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -454,8 +448,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"110 110 110 255"
-			"bgcolor_override"	"0 0 0 0"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 	}

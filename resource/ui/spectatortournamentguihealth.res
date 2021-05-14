@@ -35,10 +35,10 @@
 		"fgcolor"		"42 46 48 120"
 		"bgcolor_override"	"blank"
 	}
-	"HurtBG"
+	"HurtBG_Spectator"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"HurtBG"
+		"fieldName"		"HurtBG_Spectator"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
@@ -49,10 +49,10 @@
 		"enabled"		"1"
 		"fillcolor"		"softred"
 	}
-	"BuffBG"
+	"BuffBG_Spectator"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BuffBG"
+		"fieldName"		"BuffBG_Spectator"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
