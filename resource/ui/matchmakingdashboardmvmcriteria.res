@@ -159,7 +159,7 @@
 		"fieldName"						"JoinLateCheckButton"
 		"xpos"							"rs1"
 		"ypos"							"rs1-9"
-		"zpos"							"50"
+		"zpos"							"500"
 		"wide"							"140"
 		"tall"							"20"
 		"font"							"Product8"
@@ -179,6 +179,6 @@
 		"font"							"Product8"
 		"labelText"						"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"			"1"
-		"fgcolor_override"				"TanLight120"
+		"fgcolor_override"				"TanLight"
 	}
 }
