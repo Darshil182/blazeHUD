@@ -1,6 +1,6 @@
-"Scheme"
+Scheme
 {
-	"Colors"
+	Colors
 	{
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
@@ -26,18 +26,10 @@
 		"WindowBG"					"62 70 55 255"
 		"SelectionBG"				"90 84 75 255"
 		"SelectionBG2"				"69 64 57 255"
-		"ListBG"					"39 36 34 0"	
-		"White"												"230 235 240 255"
-		"OffWhite"											"230 235 240 255"
-		"DullWhite"											"0 0 0 255"
-		"Orange"											"243 155 83 255"
-		"TransparentBlack"									"0 0 0 0"
-		"Black"												"0 0 0 255"
-		"Green"												"22 162 134 255"
-		"Blank"												"0 0 0 0"
+		"ListBG"					"39 36 34 0"
 	}
 
-	"BaseSettings"
+	BaseSettings
 	{
 		Border.Bright									"TFTanLightDark"
 		Border.Dark										"TFTanLightDark"
@@ -166,179 +158,14 @@
 		NewGame.DisabledColor							"128 128 128 196"
 		TFColors.ChatTextYellow							"240 240 240 255"
 		TFColors.ChatTextTeamBlue						"25 118 210 255"
-		TFColors.ChatTextTeamRed						"210 43 43 255"	
-	
-		"Border.Bright"										"Blank"
-		"Border.Dark"										"Blank"
-		"Border.Selection"									"Blank"
-
-		"Button.TextColor"									"White"
-		"Button.BgColor"									"0 0 0 125"
-		"Button.ArmedTextColor"								"White"
-		"Button.ArmedBgColor"								"0 0 0 200"
-		"Button.DepressedTextColor"							"White"
-		"Button.DepressedBgColor"							"0 0 0 125"
-		"Button.FocusBorderColor"							"Black"
-
-		"CheckButton.TextColor"								"White"
-		"CheckButton.SelectedTextColor"						"White"
-		"CheckButton.BgColor"								"Blank"
-		"CheckButton.Border1"								"40 40 40 196"
-		"CheckButton.Border2"								"200 200 200 196"
-		"CheckButton.Check"									"White"
-
-		"ComboBoxButton.ArrowColor"							"White"
-		"ComboBoxButton.ArmedArrowColor"					"White"
-		"ComboBoxButton.BgColor"							"Blank"
-		"ComboBoxButton.DisabledBgColor"					"Blank"
-
-		"Chat.TypingText"									"White"
-
-		"Frame.TitleTextInsetX"								"16"
-		"Frame.ClientInsetX"								"8"
-		"Frame.ClientInsetY"								"6"
-		"Frame.BgColor"										"Blank"
-		"Frame.OutOfFocusBgColor"							"Blank"
-		"Frame.FocusTransitionEffectTime"					"0.2"
-		"Frame.TransitionEffectTime"						"0.2"
-		"Frame.AutoSnapRange"								"0"
-		"FrameGrip.Color1"									"0 0 0 200"
-		"FrameGrip.Color2"									"0 0 0 196"
-		"FrameTitleButton.FgColor"							"0 0 0 220"
-		"FrameTitleButton.BgColor"							"Blank"
-		"FrameTitleButton.DisabledFgColor"					"255 255 255 192"
-		"FrameTitleButton.DisabledBgColor"					"Blank"
-		"FrameSystemButton.FgColor"							"Blank"
-		"FrameSystemButton.BgColor"							"Blank"
-		"FrameSystemButton.Icon"							""
-		"FrameSystemButton.DisabledIcon"					""
-		"FrameTitleBar.Font"								"UiBold"
-		"FrameTitleBar.Font"								"DefaultLarge"
-		"FrameTitleBar.TextColor"							"White"
-		"FrameTitleBar.BgColor"								"Blank"
-		"FrameTitleBar.DisabledTextColor"					"255 255 255 192"
-		"FrameTitleBar.DisabledBgColor"						"Blank"
-
-		"GraphPanel.FgColor"								"White"
-		"GraphPanel.BgColor"								"Blank"
-
-		"Label.TextDullColor"								"White"
-		"Label.TextColor"									"White"
-		"Label.TextBrightColor"								"White"
-		"Label.SelectedTextColor"							"White"
-		"Label.BgColor"										"Blank"
-		"Label.DisabledFgColor1"							"117 117 117 255"
-		"Label.DisabledFgColor2"							"0 0 0 255"
-
-		"ListPanel.TextColor"								"White"
-		"ListPanel.TextBgColor"								"Blank"
-		"ListPanel.BgColor"									"Blank"
-		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBgColor"							"Orange"
-		"ListPanel.SelectedOutOfFocusBgColor"				"255 155 0 128"
-		"ListPanel.EmptyListInfoTextColor"					"White"
-
-		"Menu.TextColor"									"White"
-		"Menu.BgColor"										"0 0 0 200"
-		"Menu.ArmedTextColor"								"Black"
-		"Menu.ArmedBgColor"									"Orange"
-		"Menu.TextInset"									"6"
-
-		"Panel.FgColor"										"Blank"
-		"Panel.BgColor"										"0 0 0 200"
-
-		"ProgressBar.FgColor"								"White"
-		"ProgressBar.BgColor"								"Blank"
-
-		"PropertySheet.TextColor"							"White"
-		"PropertySheet.SelectedTextColor"					"White"
-		"PropertySheet.TransitionEffectTime"				"0.25"
-
-		"RadioButton.TextColor"								"White"
-		"RadioButton.SelectedTextColor"						"White"
-
-		"RichText.TextColor"								"White"
-		"RichText.BgColor"									"Blank"
-		"RichText.SelectedTextColor"						"Black"
-		"RichText.SelectedBgColor"							"160 165 170 255"
-
-		"ScrollBar.Wide"									"5"
-
-		"ScrollBarButton.FgColor"							"Blank"
-		"ScrollBarButton.BgColor"							"Blank"
-		"ScrollBarButton.ArmedFgColor"						"Blank"
-		"ScrollBarButton.ArmedBgColor"						"Blank"
-		"ScrollBarButton.DepressedFgColor"					"Blank"
-		"ScrollBarButton.DepressedBgColor"					"Blank"
-
-		"ScrollBarSlider.FgColor"							"White"
-		"ScrollBarSlider.BgColor"							"Blank"
-
-		"SectionedListPanel.HeaderTextColor"				"White"
-		"SectionedListPanel.HeaderBgColor"					"Blank"
-		"SectionedListPanel.DividerColor"					"Black"
-		"SectionedListPanel.TextColor"						"White"
-		"SectionedListPanel.BrightTextColor"				"White"
-		"SectionedListPanel.BgColor"						"Blank"
-		"SectionedListPanel.SelectedTextColor"				"Black"
-		"SectionedListPanel.SelectedBgColor"				"Orange"
-		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBgColor"		"255 155 0 128"
-
-		"Slider.NobColor"									"White"
-		"Slider.TextColor"									"White"
-		"Slider.TrackColor"									"Black"
-		"Slider.DisabledTextColor1"							"Black"
-		"Slider.DisabledTextColor2"							"Black"
-
-		"TextEntry.TextColor"								"White"
-		"TextEntry.BgColor"									"Blank"
-		"TextEntry.CursorColor"								"White"
-		"TextEntry.DisabledTextColor"						"White"
-		"TextEntry.DisabledBgColor"							"Blank"
-		"TextEntry.SelectedTextColor"						"Black"
-		"TextEntry.SelectedBgColor"							"160 165 170 255"
-		"TextEntry.OutOfFocusSelectedBgColor"				"160 165 170 255"
-		"TextEntry.FocusEdgeColor"							"0 0 0 200"
-
-		"ToggleButton.SelectedTextColor"					"White"
-
-		"Tooltip.TextColor"									"0 0 0 200"
-		"Tooltip.BgColor"									"Orange"
-
-		"TreeView.BgColor"									"Blank"
-
-		"WizardSubPanel.BgColor"							"Blank"
-
-		// scheme-specific colors
-		"MainMenu.TextColor"								"White"
-		"MainMenu.ArmedTextColor"							"200 200 200 255"
-		"MainMenu.DepressedTextColor"						"192 186 80 255"
-		"MainMenu.MenuItemHeight"							"16"
-		"MainMenu.Inset"									"32"
-		"MainMenu.Backdrop"									"0 0 0 156"
-
-		"Console.TextColor"									"White"
-		"Console.DevTextColor"								"White"
-
-		"NewGame.TextColor"									"White"
-		"NewGame.FillColor"									"0 0 0 255"
-		"NewGame.SelectionColor"							"Orange"
-		"NewGame.DisabledColor"								"128 128 128 196"
-
-		"TFColors.ChatTextYellow"							"White"
-		"TFColors.ChatTextTeamBlue"							"153 204 255 255"
-		"TFColors.ChatTextTeamRed"							"255 63 53 255"
+		TFColors.ChatTextTeamRed						"210 43 43 255"
 	}
 
-	"BitmapFontFiles"
+	BitmapFontFiles
 	{
-		"Buttons"											"materials/vgui/fonts/buttons_32.vbf"
+		"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
 	}
 
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
 
@@ -443,7 +270,6 @@
 
 		"ChatFont"
 		{
-			"isproportional" "only"
 			"1"
 			{
 				"name"			"Product Sans"
@@ -467,7 +293,8 @@
 				"dropshadow"	"1"
 				"antialias" "1"
 			}
-		}	
+		}
+
 		"DefaultVerySmall"
 		{
 			"1"

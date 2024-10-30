@@ -165,11 +165,11 @@
 			"Sniper"
 			{
 				"fov"			"25"
-				"angles_x"		"-5"
+				"angles_x"		"-8"
 				"angles_y"		"220"
 				"angles_z"		"0"
-				"origin_x"		"165"
-				"origin_y"		"-3"
+				"origin_x"		"155"
+				"origin_y"		"10"
 				"origin_z"		"-77"
 			}
 			"Soldier"

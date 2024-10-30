@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south-west"
-		"font"			"ChatFont"
+		"font"			"ChatFont3"
 		"maxchars"		"-1"
 	}
 }

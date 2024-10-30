@@ -236,8 +236,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-155"
-		"ypos"					"r82"
+		"xpos"					"c-151"
+		"ypos"					"r84"
 		"wide"					"96"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -439,12 +439,12 @@
 		"fieldName" 	"HudDamageIndicator"
 		"visible" 			"1"
 		"enabled"		 	"1"
-		"MinimumWidth" 		"14"
-		"MaximumWidth" 		"50"
+		"MinimumWidth" 		"7"
+		"MaximumWidth" 		"15"
 		"StartRadius" 		"95"
-		"EndRadius" 		"85"
-		"MinimumHeight" 	"30"
-		"MaximumHeight" 	"50"
+		"EndRadius" 		"75"
+		"MinimumHeight" 	"60"
+		"MaximumHeight" 	"75"
 		"MinimumTime" 		".7"
 	}
 
@@ -576,10 +576,12 @@
 	HudMessage
 	{
 		"fieldName" "HudMessage"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos" 		"24"
+		"ypos"		"-15"
+		"wide"	 	"f0"
+		"tall"	 	"480"
 	}
 
 	HudMenu

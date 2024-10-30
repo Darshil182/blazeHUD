@@ -3,27 +3,27 @@
 	"FavoriteServer1"
 	{
 		"label"			""
-		"command"		"engine connect"							//ADD THE IP OF THE SERVER HERE
-		"tooltip"		"Favorite Server 1"							//CHANGE THIS WITH THE NAME OF THE SERVER
+		"command"		"engine "
+		"tooltip"		"20K Server"
 		"subimage" 		"replay/thumbnails/softicons/favserver"
 	}
 	"FavoriteServer2"
 	{
 		"label"			""
-		"command"		"engine connect"
-		"tooltip"		"Favorite Server 2"
+		"command"		"engine "
+		"tooltip"		"Craig Server"
 		"subimage" 		"replay/thumbnails/softicons/favserver"
 	}
 	"FavoriteServer3"
 	{
 		"label"			""
-		"command"		"engine connect"
-		"tooltip"		"Favorite Server 3"
+		"command"		"engine "
+		"tooltip"		"Server"
 		"subimage" 		"replay/thumbnails/softicons/favserver"
 	}
-	
-	
-	
+
+
+
 	"ServerBrowserButton"
 	{
 		"label"			""
@@ -87,8 +87,8 @@
 		"tooltip"		""
 		"subimage" 		"replay/thumbnails/softicons/gear"
 	}
-	
-	
+
+
 	"CallVoteButton"
 	{
 		"label"			""

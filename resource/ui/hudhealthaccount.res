@@ -10,6 +10,6 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.3"
 		"delta_item_font"		"Damage18"
-		"text_center"		"1"
+		"textalignment"			"center"
 	}
 }
