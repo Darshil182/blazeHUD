@@ -16,9 +16,9 @@
 		"border"									"NoBorder"
 		"bgcolor_override"							"0 0 0 160"
 
-		"log_font_small"							"Product24"
-		"log_font_medium"							"Product24"
-		"log_font_large"							"Product24"
+		"log_font_small"							"Product12"
+		"log_font_medium"							"Product12"
+		"log_font_large"							"Product12"
 
 		"chat_color_default"						"TanLight"
 		"chat_color_player_name"					"255 255 50 255"

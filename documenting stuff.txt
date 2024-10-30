@@ -1,0 +1,5 @@
+vgui_scale_factor mainly affects vgui1 stuff like chatscheme and some vgui2 stuff like
+
+context menus and richtext (globalchat)
+
+u will need to /2 the font size and add "isproportional" "only"
