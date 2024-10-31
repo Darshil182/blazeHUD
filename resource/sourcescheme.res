@@ -92,7 +92,7 @@ Scheme
 		Frame.TitleTextInsetY			"8"
 		Frame.ClientInsetX				"6"
 		Frame.ClientInsetY				"6"
-		Frame.BgColor					"collygray"	[$WIN32]
+		Frame.BgColor					"collygray"
 		Frame.OutOfFocusBgColor			"collygraydarker"	[$WIN32]
 		Frame.FocusTransitionEffectTime	"0.0"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"				[$WIN32]	// time it takes for a window to fade in/out on open/close
