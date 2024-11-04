@@ -6602,7 +6602,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"0 0 0 165"
+			"color"					"0 0 0 205"
 
 			"image"					"replay/thumbnails/white"
 		}
@@ -6644,7 +6644,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"0 0 0 165"
+			"color"					"0 0 0 265"
 
 			"image"					"replay/thumbnails/white"
 		}
