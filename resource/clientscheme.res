@@ -3415,12 +3415,12 @@ Scheme
 		}
 		CenterPrintText
 		{
+			// def product sans breaks
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"product sans"
+				"name"		"Product sans"
 				"tall"		"12"
-				"weight"	"250"
 				"antialias" "1"
 				"additive"	"1"
 			}
@@ -9087,5 +9087,10 @@ Scheme
 			"font" "resource/fonts/Crosshair.ttf"
 			"name" "Crosshair"
 		}
+		"119"
+		{
+			"font" "resource/fonts/optimized/ProductSans-Regular.ttf"
+			"name" "ProductSans-Regular"
+		}		
 	}
 }

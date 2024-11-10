@@ -360,7 +360,7 @@ Scheme
 		Menu.BgColor					"MainBGDark"
 		Menu.ArmedTextColor				"TanLight"
 		Menu.ArmedBgColor				"TFOrange"
-		Menu.TextInset					"6"
+		Menu.TextInset					"0"
 
 		Chat.TypingText					"Orange"
 
@@ -485,11 +485,11 @@ Scheme
 		"ProgressBarFg"			"255 30 13 255"
 
 		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"		"32"
-		"Main.Menu.Y"		"248"
+		"Main.Menu.X"		"0"
+		"Main.Menu.Y"		"0"
 
 		// Blank space to leave beneath the menu on the main screen
-		"Main.BottomBorder"	"32"
+		"Main.BottomBorder"	"0"
 
 		"VguiScreenCursor"			"255 208 64 255"
 	}
