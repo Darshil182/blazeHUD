@@ -82,11 +82,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"HEAVY10"
-				"textAlignment"	"east"
+				"font"			"RobotoBold8"
+				"textAlignment"	"center"
 				"ypos"			"0"
-				"xpos"			"0"
+				"textinsetx"			"0"
 				"zpos"			"0"
+				"textinsety"	"-1"
 				"wide"			"f1"
 				"tall"			"f-3"
 				"textinsetx"	"8"
@@ -94,11 +95,12 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"labelText"		"#Store_Price_New"
+				"labelText"		"NEW!"
 				"mouseinputenabled" "0"
-				"paintbackground"	"0"
+				"paintbackground"	"2"
 				"proportionaltoparent"	"1"
 				"border"		"StoreNewBorder"
+				
 				"fgcolor"		"10 10 10 255"
 			}
 		}
