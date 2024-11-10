@@ -598,8 +598,8 @@ HudDemomanCharge
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"c130"
-		"ypos"			"r30"
+		"xpos"			"r58"
+		"ypos"			"r80"
 
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
