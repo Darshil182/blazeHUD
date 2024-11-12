@@ -1,4 +1,4 @@
-#base "hudlayout_base.res"
+#base "hudlayout_base_.res"
 "Resource/HudLayout.res"
 {
 	YahudCrosshairs
