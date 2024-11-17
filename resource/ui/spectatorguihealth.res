@@ -53,10 +53,10 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
 	}
-	"HurtBG_Target"
+	"HurtBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"HurtBG_Target"
+		"fieldName"		"HurtBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -67,10 +67,10 @@
 		"enabled"		"1"
 		"fillcolor"		"softred"
 	}
-	"BuffBG_Target"
+	"BuffBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BuffBG_Target"
+		"fieldName"		"BuffBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
