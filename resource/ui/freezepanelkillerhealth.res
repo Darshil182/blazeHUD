@@ -15,10 +15,10 @@
 		"alpha"			"0"
 		"proportionaltoparent"	"1"
 	}
-	"HurtBG_Killer"
+	"HurtBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HurtBG_Killer"
+		"fieldName"		"HurtBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"
@@ -31,10 +31,10 @@
 		"bgcolor_override"	"softred"
 		"proportionaltoparent"	"1"
 	}
-	"BuffBG_Killer"
+	"BuffBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BuffBG_Killer"
+		"fieldName"		"BuffBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"
